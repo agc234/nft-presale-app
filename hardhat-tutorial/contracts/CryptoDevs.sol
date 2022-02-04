@@ -5,7 +5,8 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "./IWhitelist.sol";
 
-// Crypto Devs Contract Address: 0x452Ee4a03FaB3Ec0e18b39D7EA8f7a9192bf55bB
+// Crypto Devs Contract Address: 0x87AAAc6F9d4aE469B58d7f9EE8Bb2D68E6Fd7e6a 
+// Prev: 0x452Ee4a03FaB3Ec0e18b39D7EA8f7a9192bf55bB
 contract CryptoDevs is ERC721Enumerable, Ownable {
     /**
     * @dev _baseTokenURI for computing {tokenURI}. If set, the resulting URI for each
